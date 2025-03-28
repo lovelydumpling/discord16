@@ -236,7 +236,7 @@ div:not([class="contents__201d5"]):has(> input) {
 .visual-refresh .toolbar__9293f .iconWrapper__9293f,
 .visual-refresh .button__85643,
 ::-webkit-scrollbar-thumb,
-.app__160d8 button:not(.clearStatusButton__958c7):not(.attachButton__0923f),
+.app__160d8 button:not(.clearStatusButton__958c7):not(.attachButton__0923f):not(.barButtonMain__0f481),
 :where(.visual-refresh) .menu_c1e9c4,
 .message__5126c .buttonsInner__5126c,
 .floatingBars__74017:empty+.stackedBars__74017:nth-child(2),
@@ -349,7 +349,6 @@ body {
 }
 
 .newMessagesBar__0f481 button {
-    border: none !important;
     background-color: transparent !important;
 }
 
