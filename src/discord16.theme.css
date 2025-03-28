@@ -46,6 +46,11 @@
     --modal-footer-background: var(--custom-bg) !important;
     --interactive-muted: grey !important;
     --button-secondary-background: var(--custom-bg) !important;
+    --autocomplete-bg: var(--custom-bg) !important;
+
+
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: none;
 }
 
 * {
@@ -261,6 +266,8 @@ div:not([class="contents__201d5"]):has(> input) {
 .tertiary__06eda,
 .visual-refresh .reaction__23977,
 .visual-refresh .reactionBtn__23977,
+.visual-refresh .autocompleteAttached__6b0e0,
+.closeButton_c2b141,
 body {
     transition: none !important;
     border: 1px solid !important;
