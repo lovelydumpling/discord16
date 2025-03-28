@@ -23,6 +23,7 @@
     --background-primary: var(--custom-bg) !important;
     --background-modifier-selected: var(--custom-secondary-accent) !important;
     --background-tertiary: var(--custom-bg) !important;
+    --background-accent: var(--custom-bg) !important;
     --bg-base-tertiary: var(--custom-bg) !important;
     --custom-channel-members-bg: var(--custom-bg) !important;
     --background-base-low: var(--custom-bg) !important;
@@ -166,6 +167,7 @@
 .visual-refresh .messages__1ccd1,
 .tutorialIcon__2692d,
 .tertiary__06eda,
+.guildIcon__0fa6d,
 .controls_ab6641 * {
     background-color: var(--custom-bg) !important;
 }
