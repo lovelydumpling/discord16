@@ -32,7 +32,7 @@
     --custom-app-top-bar-height: 35px !important;
     --scrollbar-auto-thumb: var(--custom-bg) !important;
     --scrollbar-thin-thumb: var(--custom-bg) !important;
-    --background-mod-subtle: transparent !important;
+    --background-mod-subtle: var(--custom-bg) !important;
     --background-mod-normal: var(--custom-secondary-accent) !important;
     --background-surface-high: var(--custom-bg) !important;
     --background-surface-higher: var(--custom-bg) !important;
@@ -259,6 +259,8 @@ div:not([class="contents__201d5"]):has(> input) {
 .visual-refresh .channelHeader__35a7e,
 .visual-refresh .messages__1ccd1,
 .tertiary__06eda,
+.visual-refresh .reaction__23977,
+.visual-refresh .reactionBtn__23977,
 body {
     transition: none !important;
     border: 1px solid !important;
