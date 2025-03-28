@@ -51,6 +51,7 @@
 
     text-rendering: optimizeSpeed;
     -webkit-font-smoothing: none;
+    font-smooth: never;
 }
 
 * {
