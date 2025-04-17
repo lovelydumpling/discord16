@@ -48,6 +48,7 @@
     --interactive-muted: grey !important;
     --button-secondary-background: var(--custom-bg) !important;
     --autocomplete-bg: var(--custom-bg) !important;
+    --status-danger: var(--custom-secondary-accent) !important;
 
 
     text-rendering: optimizeSpeed;
@@ -168,6 +169,8 @@
 .tutorialIcon__2692d,
 .tertiary__06eda,
 .guildIcon__0fa6d,
+.reactionTooltip_b49891,
+.container__55c99,
 .controls_ab6641 * {
     background-color: var(--custom-bg) !important;
 }
@@ -271,6 +274,8 @@ div:not([class="contents__201d5"]):has(> input) {
 .visual-refresh .reactionBtn__23977,
 .visual-refresh .autocompleteAttached__6b0e0,
 .closeButton_c2b141,
+.reactionTooltip_b49891,
+.container__55c99,
 body {
     transition: none !important;
     border: 1px solid !important;
@@ -446,3 +451,14 @@ body {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
+.visual-refresh .container__2637a {
+    padding-bottom: 70px !important;
+}
+
+.visual-refresh .wrapper_ef3116 {
+    margin-bottom: 76px !important;
+}
+
+.visual-refresh.refresh-fast-follow-avatars .panels_c48ade {
+    --custom-panels-spacing: min(5px)
+}
