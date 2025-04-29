@@ -414,6 +414,13 @@ body {
 	background: transparent !important;
     outline: 2px solid #57CBDE;
 }
+g:has(rect[fill='#40a258']),
+g:has(rect[fill='#d83a41']),
+g:has(rect[fill='#cc954c']),
+g:has(rect[fill='#82838b']),
+g:has(rect[fill='#9147ff']) {
+    display: none;
+}
 
 /* Do not disturb */
 .wrapper__44b0c:has(rect[fill='#d83a41'])::after {
