@@ -186,13 +186,13 @@ input:focus::placeholder {
 }
 
 
-.visual-refresh .listItem__650eb > div:not([class]):active {
+/* .visual-refresh .listItem__650eb > div:not([class]):active {
     box-shadow: 
     1px 0 0 0 #8c9284,
     -1px 0 0 0 #292c21,
     0 1px 0 0 #8c9284,
     0 -1px 0 0 #292c21;
-}
+} */
 
 
 :where(.visual-refresh) .themedBackground__74017,
@@ -217,6 +217,14 @@ div:not([class="contents__201d5"]):has(> input) {
 }
 
 .closedFolderIconWrapper__48112 {
+    box-shadow: 
+    1px 0 0 0 #292c21,
+    -1px 0 0 0 #8c9284,
+    0 1px 0 0 #292c21,
+    0 -1px 0 0 #8c9284;
+}
+
+.listItem__650eb > div:not(div.folderIcon__48112) .wrapper_cc5dd2 {
     box-shadow: 
     1px 0 0 0 #292c21,
     -1px 0 0 0 #8c9284,
@@ -403,16 +411,16 @@ body {
 
 /* Online */
 .wrapper__44b0c:has(rect[fill='#40a258'])::after {
-    background: transparent !important;
+	background: transparent !important;
     outline: 2px solid #57CBDE;
 }
-  
+
 /* Do not disturb */
 .wrapper__44b0c:has(rect[fill='#d83a41'])::after {
     background: transparent !important;
     outline: 2px solid #ff4133;
 }
-  
+
 /* Idle */
 .wrapper__44b0c:has(rect[fill='#cc954c'])::after {
     background: transparent !important;
@@ -424,14 +432,13 @@ body {
     background: transparent !important;
     outline: 2px solid #898989;
 }
-  
+
 /* Streaming */
 .wrapper__44b0c:has(rect[fill='#9147ff'])::after {
     background: transparent !important;
     outline: 2px solid #9147ff;
 }
 
-/* Bring avatar decorations to the top */
 .avatarDecoration__44b0c {
     z-index: 2 !important;
 }
@@ -464,6 +471,6 @@ body {
     margin-bottom: 76px !important;
 }
 
-.visual-refresh.refresh-fast-follow-avatars .panels_c48ade {
-    --custom-panels-spacing: min(5px)
+.visual-refresh .panels_c48ade {
+    --custom-panels-spacing: 5px !important;
 }
