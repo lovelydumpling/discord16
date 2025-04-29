@@ -431,6 +431,11 @@ body {
     outline: 2px solid #9147ff;
 }
 
+/* Bring avatar decorations to the top */
+.avatarDecoration__44b0c {
+    z-index: 2 !important;
+}
+
 
 /* Add ZZZ for idle status */
 .visual-refresh .memberInner__5d473:has(.avatar__91a9d .wrapper__44b0c rect[fill='#ca9654']) > .content__91a9d .nameAndDecorators__91a9d .name__91a9d .username__5d473 .name__5d473::after {
