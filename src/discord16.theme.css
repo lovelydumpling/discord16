@@ -12,7 +12,8 @@
     font-style: normal;
 }
 
-:root {
+:root,
+.visual-refresh *{
     --custom-bg: #4a5942;
     --custom-secondary-bg: #3e4637;
     --custom-accent: #c4b550;
@@ -38,6 +39,8 @@
     --background-surface-high: var(--custom-bg) !important;
     --background-surface-higher: var(--custom-bg) !important;
     --background-surface-highest: var(--custom-bg) !important;
+    --bg-surface-overlay: var(--custom-bg) !important;
+    --bg-surface-overlay-tmp: var(--custom-bg) !important;
     --background-secondary-alt: var(--custom-bg) !important;
     --background-secondary: var(--custom-bg) !important;
     --background-floating: var(--custom-bg) !important;
@@ -49,6 +52,10 @@
     --button-secondary-background: var(--custom-bg) !important;
     --autocomplete-bg: var(--custom-bg) !important;
     --status-danger: var(--custom-secondary-accent) !important;
+
+    --input-background: var(--custom-secondary-bg) !important;
+
+    --shadow-high: 0 12px 24px 0 var(--custom-bg) !important;
 
 
     text-rendering: optimizeSpeed;
@@ -72,17 +79,10 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 0 !important;
-    background-color: var(--custom-bg) !important;
 }
 
 .visual-refresh .scroller_ef3116::-webkit-scrollbar, .scroller_affa7e::-webkit-scrollbar {
     display: none !important;
-}
-
-
-
-.visual-refresh .container__9293f {
-    --__header-bar-background: var(--custom-bg);
 }
 
 .tierIconLocked_f15dca {
@@ -207,6 +207,10 @@ div:not([class="contents__201d5"]):has(> input) {
     margin-left: -35px;
 }
 
+.emojiItem_fc7141[tabindex="0"] {
+    background-color: var(--custom-secondary-bg) !important;
+}
+
 .listItem__650eb > div:not(div.folderHeader__48112) .wrapper_cc5dd2 {
     box-shadow: 
     1px 0 0 0 #292c21,
@@ -287,10 +291,13 @@ div:not([class="contents__201d5"]):has(> input) {
 .closeButton_c2b141,
 .reactionTooltip_b49891,
 .container__55c99,
+.bar__7aaec,
+.popoutContainer__0f481,
 body {
     transition: none !important;
     border: 1px solid !important;
     border-color: #8c9284 #292c21 #292c21 #8c9284 !important;
+    box-shadow: none !important;
 }
 
 
@@ -303,11 +310,15 @@ body {
 .customItem_c1e9c4:active
 .actionButton_f8fa06:active,
 .item__133bf:active,
-.selected_b3f026 {
-    background-color: var(--custom-bg) !important;
+.selected_b3f026,
+.select__3f413,
+.radioIndicator__001a7 {
     border: 1px solid !important;
     border-color: #292c21 #8c9284 #8c9284 #292c21 !important;
+    box-shadow: none !important;
 }
+
+
 
 .container_cd2100 {
     border: none !important;
@@ -318,15 +329,6 @@ body {
 :where(.visual-refresh) .tooltipTop__382e7 .tooltipPointer__382e7:not(.tooltipPointerBg__382e7),
 :where(.visual-refresh) .tooltipRight__382e7 .tooltipPointer__382e7:not(.tooltipPointerBg__382e7) {
     display: none !important;
-}
-
-.visual-refresh .attachButton__0923f {
-    background-color: transparent !important;
-    border: none !important;
-}
-
-.customItem_c1e9c4:hover > * {
-    background-color: var(--custom-bg);
 }
 
 .uploadInput__0923f {
@@ -362,14 +364,6 @@ body {
 
 :where(.visual-refresh) .wrapper__2ea32 > div:hover, :where(.visual-refresh) .link__2ea32:active{
     background-color: rgba(0, 0, 0, 0.3) !important;
-}
-
-.newMessagesBar__0f481 button {
-    background-color: transparent !important;
-}
-
-.newMessagesBar__0f481 {
-    background-color: var(--custom-secondary-accent);
 }
 
 
@@ -478,7 +472,7 @@ g:has(rect[fill='#9147ff']) {
 }
 
 .visual-refresh .wrapper_ef3116 {
-    margin-bottom: 76px !important;
+    margin-bottom: 84px !important;
 }
 
 .visual-refresh .panels_c48ade {
@@ -491,4 +485,46 @@ g:has(rect[fill='#9147ff']) {
 
 .container__37e49 {
     padding: 12px !important;
+}
+
+.bar_c38106 {
+    padding-right: 5px !important;
+}
+
+.headerEllipseForeground_f37cb1 {
+    background: var(--custom-bg) !important;
+}
+
+.searchBar__97492 {
+    width: 264px !important;
+}
+
+.title_f75fb0 {
+    max-width: 100% !important;
+}
+
+.search__49676 {
+    margin: 0 2px !important;
+}
+
+/* Unread messages bar */
+
+.newMessagesBar__0f481 {
+    background-color: var(--custom-secondary-accent) !important;
+}
+
+.newMessagesBar__0f481 > .barButtonAlt__0f481 {
+    background-color: transparent !important;
+}
+
+
+
+/* Make radio indicators square */
+.refreshIconFill__001a7,
+.refreshIconStroke__001a7 {
+    r: 0;
+}
+  
+.item_b3f026 {
+    padding: 10px;
 }
