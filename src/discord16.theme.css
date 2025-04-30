@@ -507,6 +507,15 @@ g:has(rect[fill='#9147ff']) {
     margin: 0 2px !important;
 }
 
+.base_b88801 {
+    top: 0 !important;
+    transform: translateY(-100%) !important;
+}
+
+.messagesWrapper__36d07 {
+    margin-bottom: 25px !important;
+}
+
 /* Unread messages bar */
 
 .newMessagesBar__0f481 {
