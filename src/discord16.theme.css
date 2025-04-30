@@ -60,7 +60,7 @@
     border-radius: 0 !important;
 }
 
-.visual-refresh .container_c8ffbb, .visual-refresh .header_f37cb1, .visual-refresh .container__9293f {
+.visual-refresh .container_c8ffbb, .visual-refresh .header_f37cb1, .visual-refresh .container__9293f, .sidebarList_c48ade {
     border: none !important;
     
 }
@@ -186,15 +186,6 @@ input:focus::placeholder {
 }
 
 
-/* .visual-refresh .listItem__650eb > div:not([class]):active {
-    box-shadow: 
-    1px 0 0 0 #8c9284,
-    -1px 0 0 0 #292c21,
-    0 1px 0 0 #8c9284,
-    0 -1px 0 0 #292c21;
-} */
-
-
 :where(.visual-refresh) .themedBackground__74017,
 .visual-refresh .searchBar__97492,
 .visual-refresh .scroller__629e4,
@@ -216,7 +207,7 @@ div:not([class="contents__201d5"]):has(> input) {
     margin-left: -35px;
 }
 
-.closedFolderIconWrapper__48112 {
+.listItem__650eb > div:not(div.folderHeader__48112) .wrapper_cc5dd2 {
     box-shadow: 
     1px 0 0 0 #292c21,
     -1px 0 0 0 #8c9284,
@@ -224,13 +215,26 @@ div:not([class="contents__201d5"]):has(> input) {
     0 -1px 0 0 #8c9284;
 }
 
-.listItem__650eb > div:not(div.folderIcon__48112) .wrapper_cc5dd2 {
+.folderButton__48112[aria-expanded="false"] > .wrapper_cc5dd2 {
     box-shadow: 
     1px 0 0 0 #292c21,
     -1px 0 0 0 #8c9284,
     0 1px 0 0 #292c21,
     0 -1px 0 0 #8c9284;
 }
+
+.folderButton__48112[aria-expanded="true"] > .wrapper_cc5dd2 {
+    box-shadow: none;
+}
+
+.folderGroupBackground__48112 {
+    box-shadow: 
+    1px 0 0 0 #292c21,
+    -1px 0 0 0 #8c9284,
+    0 1px 0 0 #292c21,
+    0 -1px 0 0 #8c9284;
+}
+
 
 
 
@@ -242,7 +246,6 @@ div:not([class="contents__201d5"]):has(> input) {
 .visual-refresh .chatContent_f75fb0,
 .listItemWrapper__91816,
 .visual-refresh .content_c48ade,
-.visual-refresh .expandedFolderBackground__48112,
 .visual-refresh .container_f37cb1,
 .visual-refresh .toolbar__9293f .iconWrapper__9293f,
 .visual-refresh .button__85643,
@@ -470,8 +473,8 @@ g:has(rect[fill='#9147ff']) {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
-.visual-refresh .container__2637a {
-    padding-bottom: 70px !important;
+.sidebarList_c48ade {
+    margin-bottom: 13px !important;
 }
 
 .visual-refresh .wrapper_ef3116 {
@@ -480,4 +483,12 @@ g:has(rect[fill='#9147ff']) {
 
 .visual-refresh .panels_c48ade {
     --custom-panels-spacing: 5px !important;
+}
+
+.container_c48ade {
+    --custom-chat-input-margin-bottom: 8px !important
+}
+
+.container__37e49 {
+    padding: 12px !important;
 }
