@@ -14,7 +14,7 @@
 
 :root,
 .visual-refresh *{
-    --custom-logo: url(steam-logo.svg) !important;
+    --custom-logo: url(https://raw.githubusercontent.com/dom1torii/discord16/refs/heads/main/src/assets/steam-logo.svg) !important;
 
     --custom-bg: #4a5942;
     --custom-secondary-bg: #3e4637;
