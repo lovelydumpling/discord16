@@ -14,6 +14,8 @@
 
 :root,
 .visual-refresh *{
+    --custom-logo: url(steam-logo.svg) !important;
+
     --custom-bg: #4a5942;
     --custom-secondary-bg: #3e4637;
     --custom-accent: #c4b550;
@@ -536,4 +538,21 @@ g:has(rect[fill='#9147ff']) {
   
 .item_b3f026 {
     padding: 10px;
+}
+
+
+/* Steam logo instead of discord (top left) */
+
+.tutorialContainer__1f388 .wrapper_cc5dd2 > svg {
+    opacity: 0 !important;
+}
+
+.tutorialContainer__1f388 .wrapper_cc5dd2::after {
+    content: var(--custom-logo) !important;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+.listItemWrapper__91816 {
+    margin: 5px;
 }
