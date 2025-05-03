@@ -1,7 +1,7 @@
 # Discord 1.6
 CS 1.6 / Old Steam inspired theme for Discord.
 
-![Screenshot](https://github.com/user-attachments/assets/eb8ac7d6-b7fd-4e38-abe6-f3e9be6eb706)
+![Screenshot](https://github.com/user-attachments/assets/ed702b8f-0b70-43b8-a6be-1713087687b8)
 
 ## Install
 To install the theme you will need to use a discord client that supports custom themes, e.g. [Vencord](https://vencord.dev/), [BetterDiscord](https://betterdiscord.app/)
