@@ -6,6 +6,25 @@ Theme comes in 5 different palettes:
 
 ### Steam (default)
 ![Steam Palette](https://github.com/user-attachments/assets/6e1398ee-c1a2-4e16-a033-dbea24f4931e)
+
+<details>
+  <summary><h3>Catppuccin Frappe</h3></summary>
+  <img src="https://github.com/user-attachments/assets/33c21826-5df0-40de-bc4c-8c91ecdbf172">
+</details>
+<details>
+  <summary><h3>Catppuccin Macchiato</h3></summary>
+  <img src="https://github.com/user-attachments/assets/92d3867b-ed8b-4768-8ef4-1f12acf000fd">
+</details>
+<details>
+  <summary><h3>Catppuccin Mocha</h3></summary>
+  <img src="https://github.com/user-attachments/assets/f15563c4-b8b6-4adc-be40-3a80d01a1c8c">
+</details>
+<details>
+  <summary><h3>Gruvbox</h3></summary>
+  <img src="https://github.com/user-attachments/assets/11c3d823-f988-4fc8-89b1-f0a3c6d33e94">
+</details>
+
+<!--
 ### Catppuccin Frappe
 ![Catppuccin Frappe Palette](https://github.com/user-attachments/assets/33c21826-5df0-40de-bc4c-8c91ecdbf172)
 ### Catppuccin Macchiato
@@ -14,6 +33,7 @@ Theme comes in 5 different palettes:
 ![Catppuccin Mocha Palette](https://github.com/user-attachments/assets/f15563c4-b8b6-4adc-be40-3a80d01a1c8c)
 ### Gruvbox
 ![Gruvbox Palette](https://github.com/user-attachments/assets/11c3d823-f988-4fc8-89b1-f0a3c6d33e94)
+-->
 
 ## Install
 To install the theme you will need to use a discord client that supports custom themes, e.g. [Vencord](https://vencord.dev/), [BetterDiscord](https://betterdiscord.app/)
