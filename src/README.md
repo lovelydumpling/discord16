@@ -38,16 +38,21 @@ Theme comes in 5 different palettes:
 ## Install
 To install the theme you will need to use a discord client that supports custom themes, e.g. [Vencord](https://vencord.dev/), [BetterDiscord](https://betterdiscord.app/)
 ### Using a theme file
-- Download [discord16.theme.css](https://github.com/dom1torii/discord16/blob/main/src/discord16.theme.css).
+- Download your preferred flavor from https://github.com/dom1torii/discord16/tree/main/src.
 - Put that file into `themes/` folder of your client.
 - Enable the theme in your client.
 
 ### Using raw theme link
-- Copy link `https://raw.githubusercontent.com/dom1torii/discord16/refs/heads/main/src/discord16.theme.css`
+- Copy link for your preferred flavor:
+  - Steam (default) - https://dom1torii.github.io/discord16/src/discord16.theme.css
+  - Catppuccin Frappe - https://dom1torii.github.io/discord16/src/discord16-catppuccin-frappe.theme.css
+  - Catppuccin Macchiato - https://dom1torii.github.io/discord16/src/discord16-catppuccin-macchiato.theme.css
+  - Catppuccin Mocha - https://dom1torii.github.io/discord16/src/discord16-catppuccin-mocha.theme.css
+  - Gruvbox - https://dom1torii.github.io/discord16/src/discord16-gruvbox.theme.css
 - Paste the link inside online theme import field in your client.
 
 ## Settings
-To change settings you can either change them straight in theme file or use QuickCSS if your client supports it.
+To change settings you can either change them straight in the theme file or use QuickCSS if your client supports it.
 
 ### Rounded avatars
 Variable: `--rounded-avatars`  
