@@ -10,6 +10,7 @@
 
 /* --- Settings --- */
 * {
+    --font: "ArialPixel"; /* Change to "" for default font */
     --rounded-avatars: false;
     --steam-logo: true;
 }
