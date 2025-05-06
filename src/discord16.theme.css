@@ -6,24 +6,20 @@
 */
 
 * {
-
-    /* --- Palette --- */
+     /* --- Palette --- */
 
     /* [steam | catppuccin-frappe | catppuccin-macchiato | catppuccin-mocha | gruvbox] */
     --palette: steam;
 
-    /* --------------- */
 
-
+    
     /* --- Settings --- */
 
     --rounded-avatars: false;
     --steam-logo: true;
+}
 
-    /* ---------------- */
-
-
-
+* {
 
     --custom-logo: url(https://raw.githubusercontent.com/dom1torii/discord16/refs/heads/main/src/assets/steam-logo.svg) !important;
 
