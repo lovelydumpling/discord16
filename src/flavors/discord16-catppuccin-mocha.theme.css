@@ -8,7 +8,13 @@
 
 @import url('https://raw.githubusercontent.com/dom1torii/discord16/refs/heads/main/src/discord16.theme.css');
 
+/* --- Settings --- */
+* {
+    --rounded-avatars: false;
+    --steam-logo: true;
+}
 
+/* Colors */
 * {
     --custom-bg: #1e1e2e;
     --custom-secondary-bg: #181825;
