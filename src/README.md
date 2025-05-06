@@ -26,17 +26,18 @@ To install the theme you will need to use a discord client that supports custom 
 - Copy link `https://raw.githubusercontent.com/dom1torii/discord16/refs/heads/main/src/discord16.theme.css`
 - Paste the link inside online theme import field in your client.
 
-## Changing Palette
-### With theme file
-- Open theme file and edit `--palette` property to use one of these:
-  - steam
-  - catppuccin-frappe
-  - catppuccin-macchiato
-  - catppuccin-mocha
-  - gruvbox
-### With quick CSS
-- Open quick CSS
-- Add `* {--palette: name}` and use one of properties above as name
+## Settings
+To change settings you can either change them straight in theme file or use QuickCSS if your client supports it.
+
+### Rounded avatars
+Variable: `--rounded-avatars`  
+Possible values: `true`, `false`  
+Default value: `false`
+
+### Display Steam logo
+Variable: `--steam-logo`  
+Possible values: `true`, `false`  
+Default value: `true`
 
 ## Help
 If you need any help, you can join my [discord server](https://discord.gg/vtrZhBauCX) and i will try to help you.
