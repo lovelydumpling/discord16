@@ -1,0 +1,24 @@
+/*
+ * @name Discord 1.6 (Catppuccin Mocha)
+ * @author dom1torii
+ * @description CS 1.6 + Old Steam Inspired Theme for Discord
+ * @website https://github.com/dom1torii/discord16
+ * @version 0.0.3
+*/
+
+@import url('https://raw.githubusercontent.com/dom1torii/discord16/refs/heads/main/src/discord16.theme.css');
+
+
+* {
+    --custom-bg: #1e1e2e;
+    --custom-secondary-bg: #181825;
+
+    --custom-accent: #b4befe;
+    --custom-secondary-accent: #89b4fa;
+
+    --dark-border: #11111b;
+    --light-border: #7f849c;
+
+    --custom-text: #cdd6f4;
+    --custom-secondary-text: #9399b2;
+}

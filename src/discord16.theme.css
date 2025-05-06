@@ -1,28 +1,35 @@
-/**
+/*
  * @name Discord 1.6
  * @author dom1torii
  * @description CS 1.6 + Old Steam Inspired Theme for Discord
- * @version 0.0.2
+ * @website https://github.com/dom1torii/discord16
+ * @version 0.0.3
 */
 
+/* --- Settings --- */
 * {
-     /* --- Palette --- */
-
-    /* [steam | catppuccin-frappe | catppuccin-macchiato | catppuccin-mocha | gruvbox] */
-    --palette: steam;
-
-
-    
-    /* --- Settings --- */
-
     --rounded-avatars: false;
     --steam-logo: true;
 }
 
+/* Default colors */
 * {
+    --custom-bg: #4a5942;
+    --custom-secondary-bg: #3e4637;
 
+    --custom-accent: #c4b550;
+    --custom-secondary-accent: #958831;
+
+    --dark-border: #292c21;
+    --light-border: #8c9284;
+
+    --custom-text: #ffffff;
+    --custom-secondary-text: #bdbdbd;
+}
+
+/* Colors setup */
+* {
     --custom-logo: url(https://raw.githubusercontent.com/dom1torii/discord16/refs/heads/main/src/assets/steam-logo.svg) !important;
-
 
     --font-primary: "ArialPixel", sans-serif !important;
 
@@ -91,88 +98,6 @@
     text-rendering: optimizeSpeed;
     -webkit-font-smoothing: none;
     font-smooth: never;
-}
-
-/* Colors */
-* {
-    @container style(--palette: steam) {
-        --custom-bg: #4a5942;
-        --custom-secondary-bg: #3e4637;
-
-        --custom-accent: #c4b550;
-        --custom-secondary-accent: #958831;
-
-        --dark-border: #292c21;
-        --light-border: #8c9284;
-
-        --custom-text: #ffffff;
-        --custom-secondary-text: #bdbdbd;
-    }
-
-    @container style(--palette: catppuccin-frappe) {
-        --custom-bg: #303446;
-        --custom-secondary-bg: #292c3c;
-
-        --custom-accent: #babbf1;
-        --custom-secondary-accent: #8caaee;
-
-        --dark-border: #232634;
-        --light-border: #838ba7;
-
-        --custom-text: #c6d0f5;
-        --custom-secondary-text: #949cbb;
-    }
-
-    @container style(--palette: catppuccin-macchiato) {
-        --custom-bg: #24273a;
-        --custom-secondary-bg: #1e2030;
-
-        --custom-accent: #b7bdf8;
-        --custom-secondary-accent: #8aadf4;
-
-        --dark-border: #181926;
-        --light-border: #8087a2;
-
-        --custom-text: #cad3f5;
-        --custom-secondary-text: #939ab7;
-    }
-
-    @container style(--palette: catppuccin-mocha) {
-        --custom-bg: #1e1e2e;
-        --custom-secondary-bg: #181825;
-
-        --custom-accent: #b4befe;
-        --custom-secondary-accent: #89b4fa;
-
-        --dark-border: #11111b;
-        --light-border: #7f849c;
-
-        --custom-text: #cdd6f4;
-        --custom-secondary-text: #9399b2;
-    }
-
-    @container style(--palette: gruvbox) {
-        --custom-bg: #32302f;
-        --custom-secondary-bg: #282828;
-
-        --custom-accent: #fabd2f;
-        --custom-secondary-accent: #d79921;
-
-        --dark-border: #1d2021;
-        --light-border: #928374;
-
-        --custom-text: #fbf1c7;
-        --custom-secondary-text: #a89984;
-    }
-
-}
-
-
-@property --palette {
-    syntax: "steam | catppuccin-latte | catppuccin-frappe | catppuccin-macchiato | catppuccin-mocha | gruvbox";
-    initial-value: steam;
-    name: "Palette";
-    note: "Palette to use";
 }
 
 @property --rounded-avatars {
