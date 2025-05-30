@@ -4,6 +4,7 @@
 
     --font-primary: var(--font), sans-serif !important;
 
+    --app-background-frame: var(--custom-bg) !important;
     --background-primary: var(--custom-bg) !important;
     --background-modifier-selected: var(--custom-secondary-accent) !important;
     --background-tertiary: var(--custom-bg) !important;
