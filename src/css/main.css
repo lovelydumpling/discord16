@@ -433,7 +433,7 @@ g:has(rect[mask='url(#svg-mask-status-streaming)']) {
 /* Idle */
 .wrapper__44b0c:has(rect[mask='url(#svg-mask-status-idle)'])::after {
     background: transparent !important;
-    outline: 2px solid #579FBE;
+    outline: 2px solid #f58b05;
 }
 
 /* Offline */
@@ -450,43 +450,6 @@ g:has(rect[mask='url(#svg-mask-status-streaming)']) {
 
 .avatarDecoration__44b0c {
     z-index: 2 !important;
-}
-
-
-/* Add ZZZ for idle status (kinda buggy) */
-
-/* Normal members */
-.visual-refresh .memberInner__5d473:has(.avatar__91a9d .wrapper__44b0c rect[mask='url(#svg-mask-status-idle)']) > .content__91a9d .nameAndDecorators__91a9d .name__91a9d .username__5d473 .name__5d473 .nameContainer__703b9 .name__703b9::after {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Cpath fill='%23579FBE' d='M2 13h5v1l-3.74 5H7v1H2v-1l3.75-5H2zm7-4h5v1l-3.74 5H14v1H9v-1l3.75-5H9zm7-4h5v1l-3.74 5H21v1h-5v-1l3.75-5H16z'/%3E%3C/svg%3E");
-    position: absolute;
-    transform: translate(3px, -2px);
-}
-
-/* Members with server boost */
-.visual-refresh .memberInner__5d473:has(.avatar__91a9d .wrapper__44b0c rect[mask='url(#svg-mask-status-idle)'])
-  > .content__91a9d .nameAndDecorators__91a9d:has(.premiumIcon__5d473) 
-  .name__91a9d .username__5d473 .name__5d473 .nameContainer__703b9 .name__703b9::after {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Cpath fill='%23579FBE' d='M2 13h5v1l-3.74 5H7v1H2v-1l3.75-5H2zm7-4h5v1l-3.74 5H14v1H9v-1l3.75-5H9zm7-4h5v1l-3.74 5H21v1h-5v-1l3.75-5H16z'/%3E%3C/svg%3E");
-    position: absolute;
-    transform: translate(18px, -2px) !important;
-}
-
-/* Members with clan tag */
-.visual-refresh .memberInner__5d473:has(.avatar__91a9d .wrapper__44b0c rect[mask='url(#svg-mask-status-idle)'])
-  > .content__91a9d .nameAndDecorators__91a9d:has(.clanTag__5d473) 
-  .name__91a9d .username__5d473 .name__5d473 .nameContainer__703b9 .name__703b9::after {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Cpath fill='%23579FBE' d='M2 13h5v1l-3.74 5H7v1H2v-1l3.75-5H2zm7-4h5v1l-3.74 5H14v1H9v-1l3.75-5H9zm7-4h5v1l-3.74 5H21v1h-5v-1l3.75-5H16z'/%3E%3C/svg%3E");
-    position: absolute;
-    transform: translate(55px, -2px) !important;
-}
-
-/* Members with both server boost and clan tag */
-.visual-refresh .memberInner__5d473:has(.avatar__91a9d .wrapper__44b0c rect[mask='url(#svg-mask-status-idle)'])
-  > .content__91a9d .nameAndDecorators__91a9d:has(.premiumIcon__5d473) 
-  .name__91a9d .username__5d473 .name__5d473 .nameContainer__703b9 .name__703b9::after {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='19' viewBox='0 0 24 24'%3E%3Cpath fill='%23579FBE' d='M2 13h5v1l-3.74 5H7v1H2v-1l3.75-5H2zm7-4h5v1l-3.74 5H14v1H9v-1l3.75-5H9zm7-4h5v1l-3.74 5H21v1h-5v-1l3.75-5H16z'/%3E%3C/svg%3E");
-    position: absolute;
-    transform: translate(70px, -2px) !important;
 }
 
 .childContainer__91a9d:hover {
