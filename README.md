@@ -1,5 +1,5 @@
 # Discord 1.6
-CS 1.6 / Old Steam inspired theme for Discord.
+CS 1.6 / Old Steam inspired theme for Discord, but in PINK.
 
 ## Palettes
 Theme comes in 1 palette:
