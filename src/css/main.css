@@ -49,15 +49,6 @@
 
     --shadow-high: 0 12px 24px 0 var(--custom-bg) !important;
 
-    --text-normal: var(--custom-text) !important;
-    --text-primary: var(--custom-text) !important;
-    --text-tertiary: var(--custom-secondary-text) !important;
-    --text-muted: var(--custom-secondary-text) !important;
-    --chat-text-muted: var(--custom-secondary-text) !important;
-    --channels-default: var(--custom-secondary-text) !important;
-    --header-secondary: var(--custom-secondary-text) !important;
-    --header-primary: var(--custom-text) !important;
-
     --interactive-normal: var(--custom-secondary-text) !important;
     --interactive-hover: var(--custom-text) !important;
 
@@ -72,9 +63,51 @@
     font-smooth: never;
 }
 
+*:not(.theme-darker):not(.theme-darker *) {
+    --text-normal: var(--custom-text) !important;
+    --text-primary: var(--custom-text) !important;
+    --text-tertiary: var(--custom-secondary-text) !important;
+    --text-muted: var(--custom-secondary-text) !important;
+    --chat-text-muted: var(--custom-secondary-text) !important;
+    --channels-default: var(--custom-secondary-text) !important;
+    --header-secondary: var(--custom-secondary-text) !important;
+    --header-primary: var(--custom-text) !important;
+}
+
+
+.theme-darker {
+    --text-normal: var(--custom-text-dark) !important;
+    --text-primary: var(--custom-text-dark) !important;
+    --text-tertiary: var(--custom-secondary-text-dark) !important;
+    --text-muted: var(--custom-secondary-text-dark) !important;
+    --chat-text-muted: var(--custom-secondary-text-dark) !important;
+    --channels-default: var(--custom-secondary-text-dark) !important;
+    --header-secondary: var(--custom-secondary-text-dark) !important;
+    --header-primary: var(--custom-text-dark) !important;
+}
+
+.visual-refresh .theme-darker {
+    --status-bubble-color: color-mix(in oklab,var(--neutral-73) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));
+}
+
+.visual-refresh .theme-light {
+    --status-bubble-color: color-mix(in oklab,var(--neutral-1) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));
+}
+
+.visual-refresh .container_ab8609 {
+    --custom-status-bubble-background-color: var(--status-bubble-color);
+}
+
 @font-face {
     font-family: "ArialPixel";
-    src: url(https://domitori.xyz/ArialPixel.woff2) format("woff2");
+    src: url(https://raw.githubusercontent.com/lovelydumpling/discord16pink/refs/heads/main/src/assets/ArialPixel.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "XPTahoma";
+    src: url(https://raw.githubusercontent.com/lovelydumpling/discord16pink/refs/heads/main/src/assets/WindowsXPTahoma-scaled2.woff2) format("woff2");
     font-weight: normal;
     font-style: normal;
 }
@@ -102,7 +135,7 @@
 
 .visual-refresh .container_c8ffbb, .visual-refresh .header_f37cb1, .visual-refresh .container__9293f, .sidebarList_c48ade {
     border: none !important;
-    
+
 }
 
 .tierIconLocked_f15dca {
@@ -197,7 +230,7 @@ div:not([class="contents__201d5"]):not([class="value__3f413"]):not([class="value
 
 @container style(--rounded-avatars: false) {
     .listItem__650eb > div:not(div.folderHeader__48112) .wrapper_cc5dd2 {
-        box-shadow: 
+        box-shadow:
             1px 0 0 0 var(--dark-border),
             -1px 0 0 0 var(--light-border),
             0 1px 0 0 var(--dark-border),
@@ -210,7 +243,7 @@ div:not([class="contents__201d5"]):not([class="value__3f413"]):not([class="value
 }
 
 .folderButton__48112[aria-expanded="false"] {
-    box-shadow: 
+    box-shadow:
         1px 0 0 0 var(--dark-border),
         -1px 0 0 0 var(--light-border),
         0 1px 0 0 var(--dark-border),
@@ -224,7 +257,7 @@ div:not([class="contents__201d5"]):not([class="value__3f413"]):not([class="value
 }
 
 .folderGroupBackground__48112 {
-    box-shadow: 
+    box-shadow:
     1px 0 0 0 var(--dark-border),
     -1px 0 0 0 var(--light-border),
     0 1px 0 0 var(--dark-border),
@@ -530,7 +563,7 @@ g:has(rect[mask='url(#svg-mask-status-streaming)']) {
 .refreshIconStroke__001a7 {
     r: 0;
 }
-  
+
 .item_b3f026 {
     padding: 10px;
 }
