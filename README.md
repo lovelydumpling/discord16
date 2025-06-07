@@ -11,7 +11,7 @@ Theme comes in 1 palette:
 ## Install
 To install the theme you will need to use a discord client that supports custom themes, e.g. [Vencord](https://vencord.dev/), [BetterDiscord](https://betterdiscord.app/)
 ### Using a theme file
-- Download your preferred flavor (pink) from https://github.com/lovelydumpling/discord16pink/tree/main/src.
+- Download your preferred flavor (pink) from https://github.com/lovelydumpling/discord16/tree/main/src.
 - Put that file into `themes/` folder of your client.
 - Enable the theme in your client.
 
