@@ -1,0 +1,50 @@
+/**
+ * @name Discord 1.6 Pink
+ * @author dom1torii, lovelydumpling
+ * @description CS 1.6 + Old Steam Inspired Theme for Discord, but in Pink
+ * @website https://github.com/lovelydumpling/discord16pink
+ * @version 0.0.4
+*/
+
+@import url('https://raw.githubusercontent.com/lovelydumpling/discord16pink/refs/heads/main/src/css/main.css');
+
+/* --- Settings --- */
+* {
+    --font: "XPTahoma"; /* Change to "" for discord's default font, ArialPixel to this theme's default font */
+    --rounded-avatars: false;
+    --steam-logo: false;
+}
+
+/* Colors */
+* {
+    --custom-bg: #FBCFDBFF;
+    --custom-secondary-bg: #FFEAF1FF;
+
+    --custom-accent: #C01B59FF;
+    --custom-secondary-accent: #C01B59FF;
+
+    --dark-border: #C01B59FF;
+    --light-border: #FBE5EBFF;
+
+    --custom-text: #222222;
+    --custom-secondary-text: #993030;
+    --custom-text-dark: #FFFAFA;
+    --custom-secondary-text-dark: #555555;
+}
+
+/*
+* {
+    --custom-bg: #4a5942;
+    --custom-secondary-bg: #3e4637;
+
+    --custom-accent: #c4b550;
+    --custom-secondary-accent: #958831;
+
+    --dark-border: #292c21;
+    --light-border: #8c9284;
+
+    --custom-text: #ffffff;
+    --custom-secondary-text: #bdbdbd;
+}
+
+*/
