@@ -17,7 +17,7 @@ To install the theme you will need to use a discord client that supports custom 
 
 ### Using raw theme link
 - Copy link for your preferred flavor:
-  - Pink (default) - https://raw.githubusercontent.com/lovelydumpling/discord16pink/refs/heads/main/src/discord16pink.theme.css
+  - Pink (default) - https://raw.githubusercontent.com/lovelydumpling/discord16pink/refs/heads/main/src/discord16.theme.css
 - Paste the link inside online theme import field in your client.
 
 ## Settings
