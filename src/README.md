@@ -1,5 +1,5 @@
 # Discord 1.6
-CS 1.6 / Old Steam inspired theme for Discord.
+CS 1.6 / Old Steam inspired theme for Discord, but in PINK.
 
 ## Palettes
 Theme comes in 1 palette:
@@ -11,13 +11,13 @@ Theme comes in 1 palette:
 ## Install
 To install the theme you will need to use a discord client that supports custom themes, e.g. [Vencord](https://vencord.dev/), [BetterDiscord](https://betterdiscord.app/)
 ### Using a theme file
-- Download your preferred flavor (pink) from https://github.com/lovelydumpling/discord16pink/tree/main/src.
+- Download your preferred flavor (pink) from https://github.com/lovelydumpling/discord16/tree/main/src.
 - Put that file into `themes/` folder of your client.
 - Enable the theme in your client.
 
 ### Using raw theme link
 - Copy link for your preferred flavor:
-  - Pink (default) - https://raw.githubusercontent.com/lovelydumpling/discord16pink/refs/heads/main/src/discord16pink.theme.css
+  - Pink (default) - https://raw.githubusercontent.com/lovelydumpling/discord16/refs/heads/main/src/discord16pink.theme.css
 - Paste the link inside online theme import field in your client.
 
 ## Settings
