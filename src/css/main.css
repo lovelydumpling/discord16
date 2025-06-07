@@ -100,14 +100,14 @@
 
 @font-face {
     font-family: "ArialPixel";
-    src: url(https://raw.githubusercontent.com/lovelydumpling/discord16pink/refs/heads/main/src/assets/ArialPixel.woff2) format("woff2");
+    src: url(https://raw.githubusercontent.com/lovelydumpling/discord16/refs/heads/main/src/assets/ArialPixel.woff2) format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "XPTahoma";
-    src: url(https://raw.githubusercontent.com/lovelydumpling/discord16pink/refs/heads/main/src/assets/WindowsXPTahoma-scaled2.woff2) format("woff2");
+    src: url(https://raw.githubusercontent.com/lovelydumpling/discord16/refs/heads/main/src/assets/WindowsXPTahoma-scaled2.woff2) format("woff2");
     font-weight: normal;
     font-style: normal;
 }
